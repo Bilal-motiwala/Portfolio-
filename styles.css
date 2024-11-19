@@ -1,0 +1,87 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #0078d4;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.header .highlight {
+    color: #ffcc00;
+}
+
+.navbar {
+    background: #333;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.navbar ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.about, .skills, .projects, .contact {
+    background: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #0078d4;
+}
+
+.skills .skill-list, .projects .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills .skill, .projects .project {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
